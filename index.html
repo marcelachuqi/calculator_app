@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="main.css" rel="stylesheet" />
+
+    <title>Calculator</title>
+  </head>
+  <body class="app_js blue mint yellow">
+    <header>
+      <h1 class="title">Calculator 🧮</h1>
+    </header>
+
+    <div class="app_div">
+      <form id="form-js">
+        <input class="input-number n1" id="n1" type="text" />
+        <div class="operations">
+          <button class="sum operation" id="sum">+</button>
+          <button class="rest operation" id="rest">-</button>
+          <button class="mult operation" id="mult">x</button>
+          <button class="div operation" id="div">/</button>
+        </div>
+        <input class="input-number n2" id="n2" type="text" />
+
+        <div class="buttons">
+          <button class="ok" id="ok">TOTAL</button>
+          <button class="clear" onClick="fun()" id="clear">CLEAR</button>
+        </div>
+
+        <div class="result"><output id="result">The result is, </output></div>
+      </form>
+    </div>
+    <footer class="footer_js">
+      <spam class="footer-text">
+        <small>Marcela Chuqi &copy; 2021</small>
+      </spam>
+
+      <spam>
+        <a class="footer-link" href="https://marcelachuqi.github.io/portfolio/"
+          >My portfolio</a
+        >
+      </spam>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
